@@ -63,9 +63,17 @@ body {
 }
 .ourteam li {
   background-color: #ffffff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .ourportfolio li {
   border-bottom: 1px solid #e7e9fc;
+}
+.ourportfolio li:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .row1,
 .row2 {
@@ -142,7 +150,7 @@ p {
   cursor: pointer;
   display: block;
   margin: 48px auto;
-  border-radius: ;
+  border-radius: 4px;
   /* display ve margin kismini anlamadim geri don*/
   width: 169px;
   height: 56px;
@@ -200,12 +208,19 @@ footer {
   color: #2e2f42;
 }
 .title {
-  background-image: url(../images/people-office-optimized.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-optimized.jpg);
+  width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  position: relative;
 }
 .address {
   color: #434455;
