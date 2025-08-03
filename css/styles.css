@@ -28,6 +28,30 @@ header {
 nav ul {
   gap: 40px;
 }
+nav a {
+  position: relative;
+  text-decoration: none;
+}
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  color: #404bbf;
+  background-color: #404bbf;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+nav a:focus::after,
+nav a:hover::after {
+  transform: scaleX(1);
+}
+nav a:hover {
+  color: #404bbf;
+}
 address ul {
   white-space: nowrap;
   gap: 40px;
@@ -69,6 +93,8 @@ body {
 }
 .ourportfolio li {
   border-bottom: 1px solid #e7e9fc;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /*tanstionaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
 }
 .ourportfolio li:hover {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
