@@ -185,6 +185,10 @@ p {
   width: 169px;
   height: 56px;
 }
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
 footer {
   color: #f4f4fd;
   background-color: #2e2f42;
