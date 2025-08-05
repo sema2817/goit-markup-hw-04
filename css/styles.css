@@ -26,6 +26,7 @@ header {
   gap: 70px;
 }
 nav ul {
+  margin-right: 76px;
   gap: 40px;
 }
 nav a {
@@ -54,6 +55,9 @@ nav a:hover {
 address ul {
   white-space: nowrap;
   gap: 40px;
+}
+address {
+  margin-left: 332px;
 }
 header ul {
   display: flex;
@@ -249,7 +253,7 @@ footer {
   color: #f4f4fd;
   font-family: "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
-.ourportfolio img:hover + .overlay {
+.imagewrapper:hover .overlay {
   transform: translateY(0);
 }
 .overlay p {
