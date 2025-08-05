@@ -255,7 +255,6 @@ footer {
 }
 .imagewrapper:hover .overlay {
   transform: translateY(0);
-  color: red;
 }
 .overlay p {
   padding-top: 40px;
