@@ -159,6 +159,75 @@ body {
   margin-top: 8px;
   transition: 250ms;
 }
+.images {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.instagram,
+.instagram1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.instagram1 {
+  display: none;
+}
+.images :hover .instagram {
+  display: none;
+}
+.images:hover .instagram1 {
+  display: block;
+}
+.twitter,
+.twitter1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.twitter1 {
+  display: none;
+}
+.images :hover .twitter {
+  display: none;
+}
+.images:hover .twitter1 {
+  display: block;
+}
+.facebook,
+.facebook1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.facebook1 {
+  display: none;
+}
+.images :hover .facebook {
+  display: none;
+}
+.images:hover .facebook1 {
+  display: block;
+}
+.linkedin,
+.linkedin1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.linkedin1 {
+  display: none;
+}
+.images :hover .linkedin {
+  display: none;
+}
+.images:hover .linkedin1 {
+  display: block;
+}
 h1 {
   font-size: 56px;
   font-weight: 700;
