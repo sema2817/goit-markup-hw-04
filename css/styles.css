@@ -20,7 +20,7 @@ header {
   justify-content: space-between;
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-left: 156px;
+  /*margin-left: 156px;*/
   border-bottom: 1px solid #e7e9fc;
 }
 .logomenu {
@@ -83,19 +83,20 @@ body {
 .ourteam ul {
   display: flex;
   justify-content: center;
+  gap: 24px;
 }
 .container {
   width: 1158px;
-}
-.ourteam ul {
-  gap: 24px;
-  padding-bottom: 120px;
+  margin: 0 auto;
 }
 .ourteam li {
   background-color: #ffffff;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.ourteamcard {
+  margin-bottom: 120px;
 }
 .ourportfolio li {
   border-bottom: 1px solid #e7e9fc;
@@ -122,7 +123,7 @@ body {
   padding-bottom: 120px;
   padding-top: 120px;
   gap: 24px;
-  margin-left: 156px;
+  /*margin-left: 156px;*/
 }
 .ourportfolio h3 {
   margin: 32px auto 8px 16px;
@@ -131,7 +132,7 @@ body {
   margin: 8px auto 32px 16px;
 }
 .ourportfolio {
-  margin-left: 156px;
+  /*margin-left: 156px;*/
 }
 .ourteamcontent {
   flex-wrap: wrap;
@@ -145,6 +146,7 @@ body {
 .ourteam p {
   display: flex;
   justify-content: center;
+  margin-bottom: 8px;
 }
 .rect {
   position: relative;
@@ -152,89 +154,12 @@ body {
 .rectitem {
   position: absolute;
 }
-.icons {
-  display: flex;
-  justify-self: center;
-  gap: 24px;
-  margin-top: 8px;
-  transition: 250ms;
-}
-.images {
-  position: relative;
-  width: 40px;
-  height: 40px;
-}
-.instagram,
-.instagram1 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.instagram1 {
-  display: none;
-}
-.images :hover .instagram {
-  display: none;
-}
-.images:hover .instagram1 {
-  display: block;
-}
-.twitter,
-.twitter1 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.twitter1 {
-  display: none;
-}
-.images :hover .twitter {
-  display: none;
-}
-.images:hover .twitter1 {
-  display: block;
-}
-.facebook,
-.facebook1 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.facebook1 {
-  display: none;
-}
-.images :hover .facebook {
-  display: none;
-}
-.images:hover .facebook1 {
-  display: block;
-}
-.linkedin,
-.linkedin1 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.linkedin1 {
-  display: none;
-}
-.images :hover .linkedin {
-  display: none;
-}
-.images:hover .linkedin1 {
-  display: block;
-}
 h1 {
   font-size: 56px;
   font-weight: 700;
   color: #ffffff;
   letter-spacing: 1.1px;
   text-align: center;
-  /*   line-height: 1.07;   */
 }
 h2 {
   font-size: 36px;
@@ -279,7 +204,7 @@ footer {
   margin-bottom: 16px;
 }
 .footercontent {
-  margin-left: 156px;
+  /*margin-left: 156px;*/
   margin-top: 100px;
 }
 .footericons {
@@ -352,7 +277,7 @@ footer {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office-optimized.jpg);
-  width: 1440px;
+  /*width: 1440px;*/
   padding-top: 188px;
   padding-bottom: 188px;
   background-size: cover;
@@ -407,5 +332,49 @@ ul {
 }
 .ourteam {
   background-color: #f4f4fd;
-  width: 1440px;
+  /*width: 1440px;*/
+  /*height: 780px;*/
+}
+.icon-antenna,
+.icon-clock,
+.icon-diagram,
+.icon-astronaut {
+  width: 64px;
+}
+.myicons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.socialmedia {
+  display: flex;
+  gap: 24px;
+}
+.socialmedia .socialmediaitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.socialmedia .socialmediaitem .icon {
+  width: 16px;
+  height: 16px;
+}
+.socialmedia .socialmediaitem:hover {
+  background-color: #31d0aa;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.socialmedia .socialmediaitem:hover .icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
