@@ -17,10 +17,9 @@ ul {
 }
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 24px;
   padding-bottom: 24px;
-  /*margin-left: 156px;*/
   border-bottom: 1px solid #e7e9fc;
 }
 .logomenu {
@@ -86,7 +85,7 @@ body {
   gap: 24px;
 }
 .container {
-  width: 1158px;
+  width: 1440px;
   margin: 0 auto;
 }
 .ourteam li {
@@ -101,7 +100,6 @@ body {
 .ourportfolio li {
   border-bottom: 1px solid #e7e9fc;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /*tanstionaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
 }
 .ourportfolio li:hover {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -123,16 +121,13 @@ body {
   padding-bottom: 120px;
   padding-top: 120px;
   gap: 24px;
-  /*margin-left: 156px;*/
+  width: 1128px;
 }
 .ourportfolio h3 {
   margin: 32px auto 8px 16px;
 }
 .ourportfolio p {
   margin: 8px auto 32px 16px;
-}
-.ourportfolio {
-  /*margin-left: 156px;*/
 }
 .ourteamcontent {
   flex-wrap: wrap;
@@ -186,7 +181,6 @@ p {
   margin: 48px auto;
   border-radius: 4px;
   border: none;
-  /* display ve margin kismini anlamadim geri don*/
   width: 169px;
   height: 56px;
 }
@@ -204,7 +198,7 @@ footer {
   margin-bottom: 16px;
 }
 .footercontent {
-  /*margin-left: 156px;*/
+  margin-left: 156px;
   margin-top: 100px;
 }
 .footericons {
@@ -277,7 +271,6 @@ footer {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office-optimized.jpg);
-  /*width: 1440px;*/
   padding-top: 188px;
   padding-bottom: 188px;
   background-size: cover;
@@ -332,8 +325,6 @@ ul {
 }
 .ourteam {
   background-color: #f4f4fd;
-  /*width: 1440px;*/
-  /*height: 780px;*/
 }
 .icon-antenna,
 .icon-clock,
